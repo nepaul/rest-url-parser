@@ -1,6 +1,6 @@
 {
   "name": "@nepaul/rest-url-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A axios which support RESTful style and all of the original axios APIs.",
   "main": "dist/rest-url-parser.cjs.js",
   "module": "dist/rest-url-parser.esm.js",
