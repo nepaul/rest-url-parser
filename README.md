@@ -60,7 +60,7 @@ console.log(result);
 Use with Axios:
 
 ```javascript
-import { parseRequestURL } from '@nepaul/rest-url-parser';
+import parseRequestURL from '@nepaul/rest-url-parser';
 
 const instance = axios.create(appConfig.httpClient);
 
