@@ -9,25 +9,20 @@
 [![license](https://img.shields.io/github/license/nepaul/rest-url-parser)](https://github.com/nepaul/rest-url-parser)
 [![npm](https://img.shields.io/npm/v/@nepaul/rest-url-parser)](https://www.npmjs.com/package/@nepaul/rest-url-parser)
 
-Only a function called `parseRequestURL()`. It handles URLs that contain parameters.
+Only a function called `parseRequestURL()`. Simplify the handling of URLs that contain parameters..
+
+It's particularly useful for applications that deal with REST APIs where resource identifiers are embedded in the URL.
 
 ## Table of Contents
 
 - [Rest URL Parser](#rest-url-parser)
   - [Table of Contents](#table-of-contents)
-  - [Background](#background)
   - [Get Started](#get-started)
     - [Install](#install)
   - [Usage](#usage)
   - [API](#api)
   - [Contributing](#contributing)
   - [License](#license)
-
-## Background
-
-This module was created to simplify the handling of URLs that contain parameters.
-
-It's particularly useful for applications that deal with REST APIs where resource identifiers are embedded in the URL.
 
 ## Get Started
 
