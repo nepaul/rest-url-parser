@@ -28,8 +28,6 @@ It's particularly useful for applications that deal with REST APIs where resourc
 
 ## Get Started
 
-This module provides an easy way to parse URL parameters in a standard way across your JavaScript or TypeScript project.
-
 ### Install
 
 This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Please install them first.
@@ -43,7 +41,7 @@ npm install  @nepaul/rest-url-parser
 ```javascript
 import parseRequestURL from '@nepaul/rest-url-parser';
 
-let sourceConfig = {
+const sourceConfig = {
   url: '/user/:userId/post/:postId',
   params: {
     userId: '123',
@@ -51,7 +49,7 @@ let sourceConfig = {
   },
 };
 
-let result = parseRequestURL(sourceConfig);
+const result = parseRequestURL(sourceConfig);
 
 console.log(result);
 ```
